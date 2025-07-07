@@ -1,29 +1,33 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@600&display=swap');
 
+/* Base styling */
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #fdf6f0; /* cream background */
+  background-color: #fdf6f0; /* Cream */
   color: #444444;
   margin: 0;
   padding: 0;
   line-height: 1.6;
 }
 
+/* Headings */
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
   color: #333333;
   text-align: center;
 }
 
+/* Paragraphs */
 p {
   max-width: 700px;
   margin: 10px auto;
   text-align: justify;
 }
 
+/* Links */
 a {
-  color: #842568; /* plum links */
+  color: #842568;
   text-decoration: none;
   font-weight: bold;
 }
@@ -32,7 +36,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Button Styling */
+/* Buttons */
 .button {
   background-color: #842568;
   color: #fff;
@@ -46,35 +50,48 @@ a:hover {
 }
 
 .button:hover {
-  background-color: #6d1f58; /* darker plum on hover */
+  background-color: #6d1f58;
 }
 
 /* Navbar Styling */
 .navbar {
   position: absolute;
-  top: 20px;
-  right: 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #842568;
+  padding: 15px 30px;
+  text-align: right;
+  box-sizing: border-box;
 }
 
 .navbar a {
-  margin-left: 15px;
-  text-decoration: none;
+  background-color: #fdf6f0;
   color: #842568;
+  padding: 8px 16px;
+  border-radius: 6px;
   font-weight: bold;
   font-size: 16px;
+  text-decoration: none;
+  margin-left: 15px;
+  transition: background-color 0.3s ease;
 }
 
-/* Container Layout */
+.navbar a:hover {
+  background-color: #e8e0d8; /* Slightly darker cream */
+}
+
+/* Content container */
 .container {
   text-align: center;
-  margin-top: 80px;
+  margin-top: 100px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
 }
 
-/* Image Styling */
+/* Images */
 img {
   width: 200px;
   border-radius: 15px;
