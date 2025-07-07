@@ -3,18 +3,48 @@
 <head>
   <title>Blog</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .blog-preview {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .blog-preview h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .blog-preview a {
+      color: #007780;
+      text-decoration: none;
+    }
+
+    .blog-preview a:hover {
+      text-decoration: underline;
+    }
+
+    .back-link {
+      text-align: center;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
   <h1>Blog</h1>
 
-  <!-- Blog Post Preview -->
-  <div style="max-width: 700px; margin: 40px auto; padding: 20px; border-bottom: 1px solid #ccc;">
+  <div class="blog-preview">
     <h2>
-      <a href="superbowl-kelce.html">Opinion Piece – Superbowl 58: How Kelce's Actions Negatively Impacted Young Viewers</a>
+      <a href="superbowl-kelce.html">
+        Opinion Piece – Superbowl 58: How Kelce's Actions Negatively Impacted Young Viewers
+      </a>
     </h2>
     <p><em>Click the title to read the full article</em></p>
   </div>
 
-  <p style="text-align: center;"><a href="index.html">← Back to Home</a></p>
+  <div class="back-link">
+    <a href="index.html">← Back to Home</a>
+  </div>
 </body>
 </html>
