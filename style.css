@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #fdf6f0;
+  background-color: #fdf6f0; /* cream background */
   color: #444444;
   margin: 0;
   padding: 0;
@@ -23,44 +23,18 @@ p {
 }
 
 a {
-  color: #007780;
+  color: #842568; /* plum links */
   text-decoration: none;
   font-weight: bold;
 }
 
-.navbar {
-  position: absolute;
-  top: 20px;
-  right: 30px;
+a:hover {
+  text-decoration: underline;
 }
 
-.navbar a {
-  margin-left: 15px;
-  text-decoration: none;
-  color: #007780;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.container {
-  text-align: center;
-  margin-top: 80px;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-}
-
-img {
-  width: 200px;
-  border-radius: 15px;
-  margin-top: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* Button Styling */
 .button {
-  background-color: #007780;
+  background-color: #842568;
   color: #fff;
   padding: 12px 24px;
   text-decoration: none;
@@ -72,6 +46,40 @@ img {
 }
 
 .button:hover {
-  background-color: #005f66;
+  background-color: #6d1f58; /* darker plum on hover */
 }
 
+/* Navbar Styling */
+.navbar {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.navbar a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #842568;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Container Layout */
+.container {
+  text-align: center;
+  margin-top: 80px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+/* Image Styling */
+img {
+  width: 200px;
+  border-radius: 15px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
